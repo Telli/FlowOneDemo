@@ -1,6 +1,6 @@
 import React from 'react';
 import { Plus, GraduationCap, Briefcase, Heart, Code } from 'lucide-react';
-import { useMutation } from '@tantml:react-query';
+import { useMutation } from '@tanstack/react-query';
 import { api } from '../../services/api';
 import { useAgentStore } from '../../stores/agentStore';
 
